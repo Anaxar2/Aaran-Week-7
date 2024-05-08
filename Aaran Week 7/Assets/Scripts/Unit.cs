@@ -50,8 +50,7 @@ public abstract class Unit : MonoBehaviour,
             }
         }
     }
-
-    public virtual void GoTo(Building target)
+   public virtual void GoTo(Building target)
     {
         m_Target = target;
 

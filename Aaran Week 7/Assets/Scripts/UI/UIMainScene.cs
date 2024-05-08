@@ -33,6 +33,10 @@ public class UIMainScene : MonoBehaviour
     {
         Instance = null;
     }
+    public void BackToMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
 
     private void Update()
     {
@@ -73,4 +77,5 @@ public class UIMainScene : MonoBehaviour
             InfoPopup.Name.text = content.GetName();
         }
     }
+   
 }
